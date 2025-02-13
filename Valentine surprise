@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Surprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="layer" id="quote1">"Love is not what you say, love is what you do."</div>
+    <div class="layer" id="quote2">"You are the sunshine in my life, Shreyashi."</div>
+    <div class="layer" id="quote3">"Every day with you is a Valentine’s Day for me."</div>
+    <button class="reveal-button" onclick="showHeart()">Click Me</button>
+  </div>
+
+  <div id="heart-container" class="hidden">
+    <div class="heart"></div>
+    <div class="message">
+      <p>I Love You, Shreyashi.</p>
+      <p>Will you be my Valentine?</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
